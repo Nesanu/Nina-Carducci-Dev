@@ -151,6 +151,7 @@
 
             $(".active-tag").removeClass("active active-tag");
             $(this).addClass("active active-tag");
+            // $(this).addClass("active-tag"); // Correction du nommage de la classe, ajout de la classe active
 
             const tag = $(this).data("images-toggle");
 
